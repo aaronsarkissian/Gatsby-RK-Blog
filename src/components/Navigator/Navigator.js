@@ -18,7 +18,7 @@ const styles = theme => ({
     left: 0,
     height: "100vh",
     transitionTimingFunction: "ease",
-    transition: "left .9s",
+    transition: "left .3s",
     width: "100%",
     [`@media (max-width: ${theme.mediaQueryTresholds.L - 1}px)`]: {
       "&.is-aside": {
@@ -30,7 +30,7 @@ const styles = theme => ({
     },
     [`@media (min-width: ${theme.mediaQueryTresholds.L}px)`]: {
       "&.is-featured": {
-        transition: "left .9s",
+        transition: "left .3s",
         width: `calc(100vw - ${theme.info.sizes.width}px - ${theme.bars.sizes.actionsBar}px)`,
         left: `${theme.info.sizes.width}px`,
         top: 0
@@ -60,7 +60,7 @@ const styles = theme => ({
         }
       },
       "&.moving-aside": {
-        transition: "left 0.9s",
+        transition: "left 0.3s",
         left: `calc(-100vw + ${2 * theme.info.sizes.width + 60}px)`,
         width: `calc(100vw - ${theme.info.sizes.width}px - 60px)`,
         top: 0
