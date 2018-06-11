@@ -12,11 +12,11 @@ module.exports = {
   authorName: "Aaron Sarkissian",
   authorTwitterAccount: "aaronsarkissian",
   // info
-  infoTitle: "aaron sarkissian",
-  infoTitleNote: "test blog",
+  infoTitle: "Regional Kinetics",
+  infoTitleNote: "Political Blog",
   // manifest.json
   manifestName: "This is the Title of the page",
-  manifestShortName: "TestBlog", // max 12 characters
+  manifestShortName: "Blog", // max 12 characters
   manifestStartUrl: "/",
   manifestBackgroundColor: colors.background,
   manifestThemeColor: colors.background,
