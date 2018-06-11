@@ -1,6 +1,7 @@
 ---
 title: Main Title!
 subTitle: Sub-Title
+category: "Main Article"
 cover: myicon.png
 ---
 
