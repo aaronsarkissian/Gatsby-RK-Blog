@@ -3,4 +3,6 @@ title: Home
 menuTitle: Home
 ---
 
-Home txt
+Serving Regional Policy Makers
+
+**Recommendations for policy makers across the Southern Caucasus and wider region**
