@@ -27,10 +27,7 @@ const styles = theme => ({
     color: theme.navigator.colors.postsListItemLink,
     "@media (hover: hover)": {
       "&:hover": {
-        color: theme.navigator.colors.postsListItemLinkHover,
-        "& .pointer": {
-          borderRadius: "65% 75%"
-        }
+        color: theme.navigator.colors.postsListItemLinkHover
       }
     }
   },
@@ -38,7 +35,7 @@ const styles = theme => ({
     position: "relative",
     flexShrink: 0,
     overflow: "hidden",
-    borderRadius: "75% 65%",
+    borderRadius: "75% 75%",
     width: "60px",
     height: "60px",
     margin: "0",

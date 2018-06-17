@@ -42,7 +42,7 @@ const styles = theme => ({
   avatar: {
     width: "36px",
     height: "36px",
-    borderRadius: "65% 75%",
+    borderRadius: "75% 75%",
     border: "1px solid #ddd",
     transition: "all .3s",
     transitionTimingFunction: "ease",
@@ -58,11 +58,6 @@ const styles = theme => ({
     [`@media (min-width: ${theme.mediaQueryTresholds.L}px)`]: {
       width: "60px",
       height: "60px"
-    },
-    "@media (hover: hover)": {
-      "&:hover": {
-        borderRadius: "75% 65%"
-      }
     }
   },
   title: {
