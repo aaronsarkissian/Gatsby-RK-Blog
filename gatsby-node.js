@@ -33,7 +33,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
     fromPath: `/`,
     isPermanent: true,
     redirectInBrowser: true,
-    toPath: `/about`
+    toPath: `/home`
   });
 
   return new Promise((resolve, reject) => {

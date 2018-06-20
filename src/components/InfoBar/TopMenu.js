@@ -75,14 +75,6 @@ class TopMenu extends React.Component {
               <Grow in={open} id="menu-list" style={{ transformOrigin: "0 0 0" }}>
                 <Paper>
                   <MenuList role="menu">
-                    <MenuItem
-                      onClick={e => {
-                        this.props.homeLinkOnClick(e);
-                        this.handleClose();
-                      }}
-                    >
-                      Home
-                    </MenuItem>
                     {pages.map((page, i) => {
                       const { fields, frontmatter } = page.node;
 
