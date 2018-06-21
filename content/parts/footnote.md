@@ -2,5 +2,4 @@
 title: footnote
 ---
 
-* this is the footnote
-* anything can be here.
+* You are free to copy and redistribute any material on the site giving appropriate credit

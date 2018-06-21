@@ -1,6 +1,6 @@
 ---
-title: Simulation (nash equilibrium)
-menuTitle: Simulation (nash equilibrium)
+title: Group Decision Simulation
+menuTitle: Group Decision Simulation
 ---
 
-Simulation (nash equilibrium) txt
+Nash like equilibrium

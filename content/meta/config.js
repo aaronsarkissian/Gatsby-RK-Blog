@@ -4,18 +4,18 @@ module.exports = {
   siteTitle: "This is the Title of the page", // <title>
   shortSiteTitle: "This is Title again, maybe end one", // <title> ending for posts and pages
   siteDescription: "Here is the description of what I'm doing",
-  siteUrl: "https://www.graphicsprings.com/category/letter-based",
+  siteUrl: "https://www.regionalkinetics.com",
   pathPrefix: "",
   siteImage: "preview.jpg", // Where is this image located?
   siteLanguage: "en",
   // author
-  authorName: "Example exampleian",
+  authorName: "David Davidian",
   authorTwitterAccount: "example",
   // info
   infoTitle: "Regional Kinetics",
-  infoTitleNote: "Political Blog",
+  infoTitleNote: "",
   // manifest.json
-  manifestName: "This is the Title of the page",
+  manifestName: "Serving Regional Policy Makers",
   manifestShortName: "Blog", // max 12 characters
   manifestStartUrl: "/",
   manifestBackgroundColor: colors.background,
@@ -25,7 +25,6 @@ module.exports = {
   contactEmail: "info@regionalkinetics.com",
   // social
   authorSocialLinks: [
-    { name: "github", url: "https://github.com/example" },
     { name: "twitter", url: "https://twitter.com/example" },
     { name: "facebook", url: "http://facebook.com/example" }
   ]
