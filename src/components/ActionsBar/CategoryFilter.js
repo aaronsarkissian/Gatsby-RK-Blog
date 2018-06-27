@@ -49,6 +49,21 @@ class CategoryFilter extends React.Component {
     });
   };
 
+  componentDidMount() {
+    let myParam = window.location.search;
+    if (myParam !== "") {
+      const pure = myParam.replace(/(\?q=)(\w+)/g, "$2");
+      console.log(pure);
+      this.forceHandleFiltering(pure);
+    }
+  }
+
+  forceHandleFiltering = e => {
+    const category = e;
+    this.props.filterCategory(category);
+    this.handleClose();
+  };
+
   handleFiltering = e => {
     const category = e.target.innerText.trim();
     this.props.filterCategory(category);
