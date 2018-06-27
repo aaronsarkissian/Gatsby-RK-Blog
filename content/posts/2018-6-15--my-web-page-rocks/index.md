@@ -1,7 +1,7 @@
 ---
 title: Main Title!
 subTitle: Sub-Title
-category: "Main Article"
+category: "Armenia"
 cover: myicon.png
 ---
 

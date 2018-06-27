@@ -3,14 +3,14 @@ title: Recommendation
 menuTitle: Recommendation
 ---
 
-* [Armenia](./../customize-personal-blog-starter/) This will work for a single article
+* [Armenia](./../?q=Armenia)
 * Azerbaijan
 * Georgia
 * Turkey
-* Russia
-* Iran
+* [Russia](./../?q=Russia)
+* [Iran](./../?q=Iran)
 * United States
 * China
 * Kurdistan
-* European Union
+* [European Union](./../?q=European-Union)
 * Other
